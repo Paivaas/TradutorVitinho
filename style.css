@@ -14,7 +14,7 @@ body{
     width: 5vw;
 }
 .content{
-    width: 95vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -36,8 +36,16 @@ input{
     border: none;
 }
 .input-item{
+    padding-bottom: 4px;
     border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
 }
 
+.input-item img:hover{
+    transform: scale(.94);
+}
+
+.thema{
+    width: 5vw;
+}
