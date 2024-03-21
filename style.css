@@ -4,12 +4,17 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+:root{
+    --CorRoxo: #5B0B9B;
+    --CorBranco: #FFFF;
+    --CorBranco: #FFFF;
+}
 body{
     display: flex;
 }
 
 .detalhe{
-    background-color: #5B0B9B;
+    background-color: var(--CorRoxo);
     height: 100vh;
     width: 5vw;
 }
@@ -22,7 +27,7 @@ body{
 }
 h1{
     font-size: 96px;
-    color:  #5B0B9B;;
+    color:  var(--CorRoxo);
 }
 
 .content .input-content{
@@ -66,25 +71,25 @@ select {
     font-size: 18px;
     border-color: #ddd;
     border-radius: 5px;
-  }
-  .bi-arrows, .bi-globe2{
-      color: rebeccapurple;
-  }
+}
+.bi-arrows, .bi-globe2{
+    color: var(--CorRoxo);
+}
 
-  textarea {
+textarea {
     resize: none;
     border: none;
-    background-color: white;
+    background-color: var(--CorBranco);
     width: 100%;
     height: 40px;
     display: flex;
     overflow: hidden;
-  }
-  textarea:focus{
+}
+textarea:focus{
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-  }
-  textarea::placeholder {
-    color: #5B0B9B;;
-  }
+}
+#textareaTo::placeholder {
+    color: var(--CorRoxo);
+}
