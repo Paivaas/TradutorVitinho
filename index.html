@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <link rel="icon" href="./img/icon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tradutor</title>
 </head>
-<body>
+
+<body id="fundo">
     <section class="detalhe"></section>
     <section class="content">
         <h1>TopLingo</h1>
@@ -21,21 +24,25 @@
         <div class="input-content">
 
             <div class="input-item">
-                <input type="text">
+                <input type="text" id="textoParaTraduzir">
                 <img src="./img/image 2.svg" alt="">
             </div>
 
             <div class="input-item">
-                <input type="text">
+                <input type="text" id="textoTraduzido">
                 <img src="./img/image 3.svg" alt="">
             </div>
-            
         </div>
+
+        
 
         <p>Julia Paiva & Jessica</p>
     </section>
     <section class="thema">
-      <p>blabla</p>
+        <div class="SolLua">
+            <img src="./img/sol.png" alt="" id="MudarImagem">
+        </div>
     </section>
 </body>
+
 </html>
